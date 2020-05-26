@@ -24,3 +24,8 @@ body, html {
     transform: translate(-50%, -50%);
     color: white;
 }
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+}
