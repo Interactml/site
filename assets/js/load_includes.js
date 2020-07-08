@@ -10,7 +10,7 @@ function LoadNav() {
 (function ($) {
     $(document).ready(
         function () {
-            LoadTeam()
+            $("#load-team").load("_includes/team.html");
         }
     )
 
