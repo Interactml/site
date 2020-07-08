@@ -9,7 +9,9 @@ function LoadNav() {
 
 (function ($) {
     $(document).ready(
-        LoadTeam()
+        function () {
+            LoadTeam()
+        }
     )
 
 })(jQuery);
