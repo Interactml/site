@@ -1,4 +1,3 @@
-
 /* The hero image */
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
@@ -26,8 +25,6 @@
     width: 100%;
     height: auto;
 }
-
-
   
   /* Then style the iframe to fit in the container div with full height and width */
 .responsive-iframe {
