@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    stellar_jekyll_theme (0.1.1)
+    stellar_jekyll_theme (1.2)
 
 GEM
   remote: https://rubygems.org/
@@ -48,7 +48,6 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.7)
-    rake (10.5.0)
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -60,16 +59,17 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    webrick (1.6.0)
 
 PLATFORMS
   ruby
   x64-mingw32
 
 DEPENDENCIES
-  bundler (~> 1.12)
-  jekyll (~> 3.3)
-  rake (~> 10.0)
+  bundler
+  jekyll
   stellar_jekyll_theme!
+  webrick
 
 BUNDLED WITH
    1.15.4
